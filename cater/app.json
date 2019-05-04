@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/home/home",
     "pages/meal/meal",
     "pages/member/member",
     "pages/reserve/reserve",
@@ -18,6 +19,12 @@
     "backgroundColor": "#CD7F32",
     "borderStyle": "black",
     "list": [
+      {
+        "iconPath": "/assets/images/meal.png",
+        "selectedIconPath": "/assets/images/meal_active.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
       {
         "iconPath": "/assets/images/meal.png",
         "selectedIconPath": "/assets/images/meal_active.png",
@@ -43,5 +50,6 @@
         "selectedIconPath": "/assets/images/user_active.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
