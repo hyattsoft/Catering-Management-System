@@ -19,3 +19,6 @@ class Application(Flask):
 db = SQLAlchemy()
 app = Application(__name__, template_folder=os.getcwd()+"/website/templates", root_path=os.getcwd())
 manager = Manager(app)
+
+
+import route_blue

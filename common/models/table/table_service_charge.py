@@ -10,5 +10,5 @@ from application import db
 
 
 class TableServiceCharge(db.Model):
-    code = db.Column(db.String(6), primary_key=True, comment="")
-    chargeName = db.Column(db.String(20), nullable=False, comment="")
+    code = db.Column(db.String(6), primary_key=True, comment="服务费编码")
+    chargeName = db.Column(db.String(20), nullable=False, comment="服务费名称")
