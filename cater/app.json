@@ -13,43 +13,5 @@
     "navigationBarTitleText": "鑫福海鲜饺子",
     "navigationBarTextStyle": "white"
   },
-  "tabBar": {
-    "color": "#7f7f7f",
-    "selectedColor": "#61a1ff",
-    "backgroundColor": "#CD7F32",
-    "borderStyle": "black",
-    "list": [
-      {
-        "iconPath": "/assets/images/meal.png",
-        "selectedIconPath": "/assets/images/meal_active.png",
-        "pagePath": "pages/home/home",
-        "text": "首页"
-      },
-      {
-        "iconPath": "/assets/images/meal.png",
-        "selectedIconPath": "/assets/images/meal_active.png",
-        "pagePath": "pages/meal/meal",
-        "text": "点餐"
-      },
-      {
-        "pagePath": "pages/reserve/reserve",
-        "text": "预定",
-        "iconPath": "/assets/images/reserve.png",
-        "selectedIconPath": "/assets/images/reserve_active.png"
-      },
-      {
-        "pagePath": "pages/order/order",
-        "text": "订单",
-        "iconPath": "/assets/images/order.png",
-        "selectedIconPath": "/assets/images/order_active.png"
-      },
-      {
-        "pagePath": "pages/member/member",
-        "text": "我的",
-        "iconPath": "/assets/images/user.png",
-        "selectedIconPath": "/assets/images/user_active.png"
-      }
-    ]
-  },
   "sitemapLocation": "sitemap.json"
 }
